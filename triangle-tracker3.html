@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Triangle Tracker</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Triangle Tracker</h1>
+
+      <p>input the lengths of the sides of a triangle.</p>
+
+      <form id="triangle">
+        <label for="length">side</label>
+        <input id="length" type="text">
+        <label for="length2">side2</label>
+        <input id="length2" type="text">
+        <label for="length3">side3</label>
+        <input id="length3" type="text">
+
+        <button type="submit" class="btn">Submit</button>
+      </form>
+
+      <div id="equilateral">
+        <p>Equilateral</p>
+        <img src="img/equilateral.png">
+      </div>
+      <div id="isosceles">
+        <p>Isosceles</p>
+        <img src="img/isosceles.png">
+      </div>
+      <div id="scalene">
+        <p>Scalene</p>
+        <img src="img/scalene.png">
+      </div>
+      <div id="not-a-triangle">
+        <p>NOT a triangle</p>
+        <img src="img/no-triangle.png">
+      </div>
+    </div>
+  </body>
+</html>

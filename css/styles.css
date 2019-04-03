@@ -1,0 +1,16 @@
+#equilateral {
+  display: none;
+  color: green;
+}
+#isosceles {
+  display: none;
+  color: blue;
+}
+#scalene {
+  display: none;
+  color: orange;
+}
+#not-a-triangle {
+  display: none;
+  color: red;
+}
